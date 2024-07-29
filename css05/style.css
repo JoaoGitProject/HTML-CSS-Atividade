@@ -1,65 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-* {
-    margin: 0;
+*{
     padding: 0;
-    font-family: "Montserrat", sans-serif
+    margin: 0;
 }
 
-h1 {
+.inicio{
+    margin: 2rem;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   
 }
 
+header{
+    border-bottom: 1px solid;
+    margin-bottom: 1.5rem;
+}
 
-h2 {
+h1,h2{
+    margin: 1rem;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family:'Montaga';
+    text-decoration: none;
+    font-weight: 400;
 }
 
-p {
+h1{
+    font-size: 2.5rem;
+}
+
+p{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-section.botoes {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 20px 0; 
+.catalogo,.introducao{
+    text-align: center;
 }
 
-section.botoes button {
-    border-color: white;
-    margin-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    padding: 13px;
-    cursor: pointer;
-    border-radius: 20px;
-    background-color: rgb(47, 156, 245);
-    color: white;
-}
-
-footer {
-    margin-top: 15px;
-    color: white;
+.cta-register,.cta{
     background-color: black;
-    padding: 10px;
+    border-radius: 999px;
+    color: #ffffff;
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 1.2rem;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-section.botoes button:hover {
-    background-color: #000000; 
-    transform: scale(1.05); 
+.generos>li{
+    display: inline-block;
+    margin-top: 2rem;
 }
 
-.img{
+.genero > a{
+    font-size: 1.2rem;
     text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #32a9e0;
+    border-radius: 9999px;
+    padding: 1rem 1.5rem;
+    margin: 0.3rem;
+}
+
+.ver-mais>a{
+    background-color: black;
+    border-radius: 999px;
+    color: #ffffff;
+    display: block;
+    padding: 1rem 1.5rem;
+    margin: 0.3rem;
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer{
+color: #ffffff;
+margin-top: 1rem;
+background-color: black;
+padding: 1.5rem;
 }
